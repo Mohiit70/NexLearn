@@ -1,0 +1,40 @@
+<!-- HTML (index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your App Name</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <!-- Your navigation links or logo here -->
+    Navbar Content
+  </div>
+
+  <div class="hero-section">
+    <h1>NexLearn
+    </h1>
+  </div>
+
+  <div class="question-box">
+    <div>
+      <input type="text" id="learningInput" placeholder="What do you want to learn?">
+    </div>
+    <div>
+      <input type="text" id="timeInput" placeholder="Your available time">
+    </div>
+    <button class="generate-btn" onclick="generateResult()">Generate</button>
+  </div>
+
+  <div class="result-block" id="resultBlock">
+    <!-- Result content will be dynamically added here -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
